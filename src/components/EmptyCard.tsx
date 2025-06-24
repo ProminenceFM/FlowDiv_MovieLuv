@@ -1,5 +1,6 @@
-import { IconProps } from "@phosphor-icons/react";
-import { FC } from "react";
+import type { IconProps } from "@phosphor-icons/react";
+import type { FC } from "react";
+
 
 type EmptyProps = {
   Icon: FC<IconProps>;
