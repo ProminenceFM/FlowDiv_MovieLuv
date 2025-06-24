@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+*{
+    box-sizing: border-box;
+    font-family:Inter;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:  #0d253f;
+}
+
+@theme {
+    --color-darkblue: #0d253f;
+    --color-tahiti: #3ab7bf;
+    --color-bermuda: #78dcca;
+  }
+
+  .bgMorphism{
+background: rgba(13, 37, 63, 0.8);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(13, 37, 63, 0.3);
+  }
+
+  .bgMorphismBlack{
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+      }
+    
