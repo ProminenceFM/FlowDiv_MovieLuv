@@ -26,7 +26,7 @@ const Header = () => {
         <Link to="/">
           <div className="flex items-baseline gap-2">
             <h1 className="font-extrabold hidden md:block bg-gradient-to-r from-lime-50 to-cyan-300 text-[clamp(1rem,4vw,1.75rem)] bg-clip-text text-transparent">
-              VEGA: ME
+              FLOWDIV: ME
             </h1>
             <div className="w-[40px] h-[20px] rounded-2xl bg-gradient-to-r from-lime-50 to-cyan-300" />
           </div>

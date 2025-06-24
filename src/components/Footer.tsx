@@ -38,7 +38,7 @@ const Footer = () => {
             >
               <div className="flex items-baseline gap-2">
                 <h1 className="font-extrabold hidden lg:block bg-gradient-to-r from-lime-50 to-cyan-300 text-xl sm:text-2xl bg-clip-text text-transparent">
-                  VEGA: ME
+                  FLOWDIV: ME
                 </h1>
                 <div className="w-[40px] sm:w-[50px] h-[10px] sm:h-[15px] rounded-2xl bg-gradient-to-r from-lime-50 to-cyan-300"></div>
               </div>
