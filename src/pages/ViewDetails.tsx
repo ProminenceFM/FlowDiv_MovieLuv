@@ -126,7 +126,7 @@ const ViewDetails = () => {
                 weight={isSaved ? "fill" : "regular"}
                 className="cursor-pointer text-amber-300"
               />
-              ADD TO WATCHLIST
+              {isSaved ? "REMOVE FROM" : "ADD TO "} WATCHLIST
             </button>
             <BackButton />
           </div>
